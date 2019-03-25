@@ -8,8 +8,8 @@ Apache server lies in a httpd:alpine Docker container and includes a bin with cg
 
 REST-api is built with Node.js and Express and returns queries from a connected database available depending on whether the user is logged in. 
 
-An Ajax client gives the save functionality as the cgi-scripts.
+An Ajax client gives the same functionality as cgi-scripts from Apache server container.
 
-The android app is just a simple HTML-page saved in the Assets catalog with a single link to a web-view of the ajax-client from the express-container.
+The android app is just a simple HTML-page saved in the Assets catalog with a single link to the web-view of the Ajax-client from express-container.
 
 Complete text of the assignment is in the Assignment file (Norwegian).
